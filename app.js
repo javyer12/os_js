@@ -106,10 +106,13 @@ exec('node -v', (error, stdout)=> {
 })
 
 //performance
-const { performance } = require("perf_hooks");
-const init = performance.now();
-for (let i = 0; i <= 1000000; i++){
-    // console.log("performance: " + i)
-}
-const end = performance.now();
-console.log(end - init + " ms");
+// const { performance } = require("perf_hooks");
+// const init = performance.now();
+// for (let i = 0; i <= 1000000; i++){
+//     // console.log("performance: " + i)
+// }
+// const end = performance.now();
+// console.log(end - init + " ms");
+
+//pendiente paso 24=Ejecutar comandos del sistema
+

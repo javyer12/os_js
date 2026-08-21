@@ -49,5 +49,5 @@ setInterval(() => {
 
   console.log(report);
 
-  fs.writeFileSync("report.txt", report);
+  fs.writeFileSync("reportActivity.txt", report);
 }, 1000);
