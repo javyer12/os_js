@@ -105,11 +105,13 @@ exec('node -v', (error, stdout)=> {
     // console.log(stderr)
 })
 
-//performance
+//performance 
+//benchmark = prueba que mide cuanto tiempo tarda una porcion de codigo en ejecutarse / detecta cuello de botellas
+
 // const { performance } = require("perf_hooks");
 // const init = performance.now();
 // for (let i = 0; i <= 1000000; i++){
-//     // console.log("performance: " + i)
+//     console.log("performance: " + i)
 // }
 // const end = performance.now();
 // console.log(end - init + " ms");
